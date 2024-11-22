@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CloudQATest/1.0.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.26.1",
+          "Selenium.WebDriver.ChromeDriver": "114.0.5735.9000"
+        },
+        "runtime": {
+          "CloudQATest.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.26.1": {
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/114.0.5735.9000": {}
+    }
+  },
+  "libraries": {
+    "CloudQATest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Selenium.WebDriver/4.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f0t/Oo9l2aK+znAv/McTPSz6p0fSoIYMZpkHql1ndItqu1n6PGXE1XRhziVk2zwG3RBUzEfIr6r/emkl6sP63w==",
+      "path": "selenium.webdriver/4.26.1",
+      "hashPath": "selenium.webdriver.4.26.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/114.0.5735.9000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BgBGrbMiyhq+wZjWfKE0t5A+TVlY5kbUj8BcxPSMjuGOW2CinaMNZq567ZjxDNDvnqJBKmx2mPa5Hkjolt28Lg==",
+      "path": "selenium.webdriver.chromedriver/114.0.5735.9000",
+      "hashPath": "selenium.webdriver.chromedriver.114.0.5735.9000.nupkg.sha512"
+    }
+  }
+}
